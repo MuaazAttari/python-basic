@@ -1,99 +1,99 @@
-# name = "Muaaz"   # String
-# age = 22         # Integer
-# height = 5.2     # Float
-# is_student = True  # Boolean
+name = "Muaaz"   # String
+age = 22         # Integer
+height = 5.2     # Float
+is_student = True  # Boolean
 
-# print(name)
-# print(age)
-# print(height)
-# print(is_student)
+print(name)
+print(age)
+print(height)
+print(is_student)
 
-# to_do = ["Eat", "Sleep", "Code", "Repeat"]  # List
-# cannt_do = ("Lie", "Cheat", "Steal")         # Tuple
-# when_to_do = {"Eat": "When Hungry", "Sleep": "When Tired", "Code": "When get free"}  # Dictionary
+to_do = ["Eat", "Sleep", "Code", "Repeat"]  # List
+cannt_do = ("Lie", "Cheat", "Steal")         # Tuple
+when_to_do = {"Eat": "When Hungry", "Sleep": "When Tired", "Code": "When get free"}  # Dictionary
 
-# print(type(to_do)) # To check the type of the variable
-# print(type(cannt_do))
-# print(type(when_to_do))
+print(type(to_do)) # To check the type of the variable
+print(type(cannt_do))
+print(type(when_to_do))
 
-# # Set........
+# Set........
 
-# do_not_repeat = {"Play","use phone","watch TV","use phone"}  # Set
+do_not_repeat = {"Play","use phone","watch TV","use phone"}  # Set
 
-# print(do_not_repeat) # Set will not repeat the values
-# print(type(do_not_repeat))
+print(do_not_repeat) # Set will not repeat the values
+print(type(do_not_repeat))
 
 
-# my_set = {1,2,3,4,5,6,7,8,9,10,1,2,3,4,5,6,7,8,9,10}  # Set
+my_set = {1,2,3,4,5,6,7,8,9,10,1,2,3,4,5,6,7,8,9,10}  # Set
 
-# my_set.add(11) # Add a value in the set
-# my_set.remove(5) # Remove a value from the set
-# my_set.discard(6) # Discard a value from the set
+my_set.add(11) # Add a value in the set
+my_set.remove(5) # Remove a value from the set
+my_set.discard(6) # Discard a value from the set
 
-# print(my_set) # Set will not repeat the values
+print(my_set) # Set will not repeat the values
 
-# # Check if the value is in the set or not
-# print(2 in my_set) # True
-# print(5 in my_set) # False
+# Check if the value is in the set or not
+print(2 in my_set) # True
+print(5 in my_set) # False
 
-# # Arithmetic Operators............
+# Arithmetic Operators............
 
-# a = 10
-# b = 3
+a = 10
+b = 3
 
-# print(a+b) # Addition
-# print(a-b) # Subtraction
-# print(a*b) # Multiplication
-# print(a/b) # Division
-# print(a//b) # Floor Division  (10 // 3 = 3) -> Removes decimal part
-# print(a%b) # Modulus  (10 % 3 = 1) -> Gives remainder
-# print(a**b) # Exponent  (10 ** 3 = 1000) -> 10^3    10*10*10 = 1000
+print(a+b) # Addition
+print(a-b) # Subtraction
+print(a*b) # Multiplication
+print(a/b) # Division
+print(a//b) # Floor Division  (10 // 3 = 3) -> Removes decimal part
+print(a%b) # Modulus  (10 % 3 = 1) -> Gives remainder
+print(a**b) # Exponent  (10 ** 3 = 1000) -> 10^3    10*10*10 = 1000
 
-# # Comparison Operators............
+# Comparison Operators............
 
-# Num1 = 10
-# Num2 = 20
+Num1 = 10
+Num2 = 20
 
-# print(Num1 == Num2) # False
-# print(Num1 != Num2) # True
-# print(Num1 > Num2) # False
-# print(Num1 < Num2) # True
-# print(Num1 >= Num2) # False
-# print(Num1
-#       <= Num2) # True
+print(Num1 == Num2) # False
+print(Num1 != Num2) # True
+print(Num1 > Num2) # False
+print(Num1 < Num2) # True
+print(Num1 >= Num2) # False
+print(Num1
+      <= Num2) # True
 
-# # Logical Operators............
+# Logical Operators............
 
-# x = True
-# y = False
+x = True
+y = False
 
-# print(x and y)  # AND -> False (Both must be True)
-# print(x or y)   # OR  -> True (At least one must be True)
-# print(not x)   # x = True, but because of not it reverses the value # NOT -> False (Reverses the value)
+print(x and y)  # AND -> False (Both must be True)
+print(x or y)   # OR  -> True (At least one must be True)
+print(not x)   # x = True, but because of not it reverses the value # NOT -> False (Reverses the value)
 
-# # Assignment Operators............
+# Assignment Operators............
 
-# num = 5
-# num += 3  # Same as num = num + 3 (Now num = 8)
-# num -= 2  # Same as num = num - 2 (Now num = 6)
-# num *= 4  # Same as num = num * 4 (Now num = 24)
-# num /= 2  # Same as num = num / 2 (Now num = 12.0)
+num = 5
+num += 3  # Same as num = num + 3 (Now num = 8)
+num -= 2  # Same as num = num - 2 (Now num = 6)
+num *= 4  # Same as num = num * 4 (Now num = 24)
+num /= 2  # Same as num = num / 2 (Now num = 12.0)
 
-# # Identity Operators............
+# Identity Operators............
 
-# a = 5
-# b = 5
-# c = 10
-# print(a is b)  # True
-# print(a is c)  # False
-# print(a is not c)  # True
+a = 5
+b = 5
+c = 10
+print(a is b)  # True
+print(a is c)  # False
+print(a is not c)  # True
 
-# # Membership Operators............
+# Membership Operators............
 
-# fruits = ["Apple", "Banana", "Cherry"]
-# print("Banana" in fruits)  # True
-# print("Grapes" not in fruits)  # True
-# print("Mango" in fruits)  # False
+fruits = ["Apple", "Banana", "Cherry"]
+print("Banana" in fruits)  # True
+print("Grapes" not in fruits)  # True
+print("Mango" in fruits)  # False
 
 # # All 39 Keywords in Python............
 
